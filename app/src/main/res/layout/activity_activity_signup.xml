@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:background="@mipmap/signup_bg"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:id="@+id/linearLayout2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up"
+                android:id="@+id/textView"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/dark"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/login_edittextstyle"
+                android:id="@+id/txt_firstname"
+                android:layout_margin="8dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/lightdark"
+                android:hint="@string/txt_name"
+                android:layout_gravity="center_horizontal" />
+
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/login_edittextstyle"
+                android:id="@+id/txt_email"
+                android:inputType="textEmailAddress"
+                android:layout_margin="8dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/lightdark"
+                android:hint="username@example.com"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/please_enter_valid_email_address"
+                android:id="@+id/dsdf"
+                android:textSize="10dp"
+                android:textIsSelectable="false"
+                android:layout_marginLeft="10dp"
+                android:textColor="#d50606" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/login_edittextstyle"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/lightdark"
+                android:hint="@string/txt_username"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:id="@+id/txt_username" />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/login_edittextstyle"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/lightdark"
+                android:hint="@string/txt_password"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:id="@+id/txt_userpass" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/txt_password_restiction"
+                android:id="@+id/textView2"
+                android:textSize="10dp"
+                android:textIsSelectable="false"
+                android:layout_marginLeft="10dp"
+                android:textColor="#d50606" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/login_edittextstyle"
+                android:inputType="textPassword"
+                android:id="@+id/txt_confrimpass"
+                android:layout_margin="8dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/lightdark"
+                android:hint="@string/txt_confirm_pass" />
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:text="@string/sign_up"
+                android:background="@drawable/btn_dark_curved"
+                android:id="@+id/btn_signup"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/login"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:id="@+id/txt_login"
+            android:layout_gravity="center_horizontal"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+</RelativeLayout>

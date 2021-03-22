@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group
+        android:id="@+id/menu1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_pairing"
+            android:title="@string/fragment_pairing" />
+    </group>
+    <group
+        android:id="@+id/menu4"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_examining"
+            android:icon="@mipmap/ic_examining"
+            android:title="@string/fragment_auscultation" />
+    </group>
+    <group
+        android:id="@+id/menu5"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_conversation"
+            android:icon="@mipmap/ic_conversation"
+            android:title="@string/fragment_consultation" />
+    </group>
+    <group
+        android:visible="true"
+        android:id="@+id/menu3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/my_recording"
+            android:icon="@mipmap/ic_myrecord"
+            android:title="@string/fragment_myRecording" />
+    </group>
+
+    <group
+        android:visible="true"
+        android:id="@+id/menu10"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/my_old_recording"
+            android:icon="@mipmap/ic_myrecord"
+            android:title="Old Recordings" />
+    </group>
+
+    <group
+        android:id="@+id/menu2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_user_profile"
+            android:icon="@mipmap/ic_myprofile"
+            android:title="@string/fragment_profile" />
+    </group>
+
+
+    <group
+        android:id="@+id/menu6"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@mipmap/icon_contact"
+            android:title="@string/fragment_myContacts" />
+    </group>
+
+    <!--<group-->
+    <!--android:id="@+id/menu9"-->
+    <!--android:checkableBehavior="none">-->
+    <!--<item-->
+    <!--android:id="@+id/nav_change_language"-->
+    <!--android:icon="@mipmap/ic_language"-->
+    <!--android:title="@string/languages" />-->
+    <!--</group>-->
+
+    <group
+        android:id="@+id/menu8"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_about_2"
+            android:title="@string/fragment_about" />
+    </group>
+
+    <group
+        android:id="@+id/menu9"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_newpneu"
+            android:icon="@mipmap/ic_lungs"
+            android:title="newPneu" />
+    </group>
+
+    <group
+        android:id="@+id/menu11"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_covid"
+            android:icon="@mipmap/ic_covid"
+            android:title="Covid-19" />
+    </group>
+
+
+    <group
+        android:id="@+id/menu7"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

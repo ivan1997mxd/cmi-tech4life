@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="fill_parent"
+       android:id="@+id/chat_right_layout"
+       android:visibility="visible"
+       android:layout_marginBottom="4dp"
+       android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+
+         <ImageView
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:layout_gravity="right"
+             android:layout_marginRight="5dp"
+             android:id="@+id/userImg_right"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/userName_right"
+             android:textSize="16sp"
+             android:text="@string/txt_name"
+             android:layout_marginRight="5dp"
+             android:textStyle="bold"
+             android:layout_alignParentTop="true"
+             android:layout_toLeftOf="@+id/userImg_right"
+             android:layout_toStartOf="@+id/userImg_right" />
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_below="@+id/userName_right"
+             android:layout_marginRight="5dp"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentStart="true"
+             android:layout_toLeftOf="@+id/userImg_right"
+             android:layout_toStartOf="@+id/userImg_right">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/applozic_share_contact_divider"
+                android:layout_marginLeft="5dp"
+                android:paddingBottom="10dp"
+                android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:text=""
+                   android:textSize="13sp"
+                   android:layout_margin="5dp"
+                   android:textColor="@color/black"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/chat_msg_right" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="10sp"
+                android:gravity="right"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/chat_date_right"
+                />
+         </LinearLayout>
+
+      </RelativeLayout>
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="fill_parent"
+       android:id="@+id/chat_left_layout"
+       android:visibility="visible"
+       android:layout_marginBottom="4dp"
+       android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+
+         <ImageView
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="5dp"
+             android:id="@+id/userImg_left" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/userName_left"
+             android:textSize="16sp"
+             android:layout_marginLeft="5dp"
+             android:text="@string/txt_name"
+             android:textStyle="bold"
+             android:layout_alignParentTop="true"
+             android:layout_toRightOf="@+id/userImg_left"
+             android:layout_toEndOf="@+id/userImg_left" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_marginLeft="5dp"
+             android:layout_below="@+id/userName_left"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true"
+             android:layout_toRightOf="@+id/userImg_left"
+             android:layout_toEndOf="@+id/userImg_left">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/applozic_share_contact_divider"
+                android:layout_marginRight="5dp"
+                android:paddingBottom="10dp"
+                android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:text=""
+                   android:textSize="13sp"
+                   android:layout_margin="5dp"
+                   android:textColor="@color/black"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/chat_msg_left" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="10sp"
+                android:gravity="left"
+                android:layout_marginRight="5dp"
+                android:id="@+id/chat_date_left"
+                />
+         </LinearLayout>
+
+      </RelativeLayout>
+
+
+   </LinearLayout>
+
+
+</LinearLayout>

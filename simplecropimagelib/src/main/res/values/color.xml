@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red_theme">#DC4146</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#716E74</color>
+    <color name="green">#06D22F</color>
+    <color name="blue">#002AFF</color>
+    <color name="blue_light">#1e90ff</color>
+    
+
+</resources>

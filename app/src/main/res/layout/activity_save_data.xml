@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySaveData">
+
+    <Button
+        android:id="@+id/submitDataBtn"
+        android:layout_width="189dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="76dp"
+        android:background="@color/playerColor"
+        android:onClick="shareData"
+        android:text="@string/save_data_button_title"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameField"
+        app:layout_constraintVertical_bias="0.597" />
+
+    <EditText
+        android:id="@+id/firstNameField"
+        android:layout_width="238dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_edittextstyle"
+        android:hint="@string/save_data_patient_first_name"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/lightdark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saveDataSubtitle" />
+
+    <EditText
+        android:id="@+id/lastNameField"
+        android:layout_width="238dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_edittextstyle"
+        android:hint="@string/save_data_patient_last_name"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/lightdark"
+        app:layout_constraintEnd_toEndOf="@+id/firstNameField"
+        app:layout_constraintStart_toStartOf="@+id/firstNameField"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameField" />
+
+    <EditText
+        android:id="@+id/middleNameField"
+        android:layout_width="238dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_edittextstyle"
+        android:editable="false"
+        android:hint="@string/save_data_patient_middle_name"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/lightdark"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageView
+        android:id="@+id/iconView"
+        android:layout_width="136dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toTopOf="@+id/submitDataBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameField"
+        app:srcCompat="@mipmap/ic_data_reading" />
+
+    <TextView
+        android:id="@+id/saveDataInformation"
+        android:layout_width="349dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/save_data_information"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/saveDataTitle"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/saveDataTitle"
+        app:layout_constraintTop_toBottomOf="@+id/saveDataTitle" />
+
+    <TextView
+        android:id="@+id/saveDataTitle"
+        android:layout_width="268dp"
+        android:layout_height="33dp"
+        android:text="@string/save_data_title"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/saveDataSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_data_subtitle"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
+</androidx.constraintlayout.widget.ConstraintLayout>

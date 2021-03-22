@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:drawable="@mipmap/lungs" android:state_checked="false"/>
+
+    <item android:drawable="@mipmap/heart" android:state_checked="true"/>
+    <item android:drawable="@mipmap/heart"></item>
+
+</selector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cmi-tech4life-esteth_tech4life-08026c8ea56b.iml" filepath="$PROJECT_DIR$/.idea/modules/cmi-tech4life-esteth_tech4life-08026c8ea56b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/cmi-tech4life-esteth_tech4life-08026c8ea56b.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/cmi-tech4life-esteth_tech4life-08026c8ea56b.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobicomkit/cmi-tech4life-esteth_tech4life-08026c8ea56b.mobicomkit.iml" filepath="$PROJECT_DIR$/.idea/modules/mobicomkit/cmi-tech4life-esteth_tech4life-08026c8ea56b.mobicomkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobicomkitui/cmi-tech4life-esteth_tech4life-08026c8ea56b.mobicomkitui.iml" filepath="$PROJECT_DIR$/.idea/modules/mobicomkitui/cmi-tech4life-esteth_tech4life-08026c8ea56b.mobicomkitui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobicommons/cmi-tech4life-esteth_tech4life-08026c8ea56b.mobicommons.iml" filepath="$PROJECT_DIR$/.idea/modules/mobicommons/cmi-tech4life-esteth_tech4life-08026c8ea56b.mobicommons.iml" />
+    </modules>
+  </component>
+</project>

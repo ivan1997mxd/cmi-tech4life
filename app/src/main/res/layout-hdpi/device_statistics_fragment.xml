@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BackButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:background="#00FFFFFF"
+                android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+            <TextView
+                android:id="@+id/DeviceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_name"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+            <LinearLayout
+                android:id="@+id/userInfo"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/genderIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:paddingEnd="20dp"
+                    android:src="@drawable/ic_iconfinder_user_male2_172626"/>
+                <TextView
+                    android:id="@+id/UserID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No User"
+                    android:textSize="20sp"
+                    android:layout_gravity="end"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="fill_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/bluetooth_logo_description"
+                    app:srcCompat="@drawable/ic_baseline_heartrate"/>
+
+                <TextView
+                    android:id="@+id/BpmText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"
+                    android:text="@string/Zero"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/bluetooth_logo_description"
+                    app:srcCompat="@drawable/ic_baseline_o2"/>
+
+                <TextView
+                    android:id="@+id/SpO2Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"
+                    android:text="@string/Zero"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/bluetooth_logo_description"
+                    app:srcCompat="@drawable/ic_baseline_thermometer"/>
+
+                <TextView
+                    android:id="@+id/TempText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"
+                    android:text="@string/Zero"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/TemperatureButton"
+                    android:scaleType="fitCenter"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="0"
+                    android:padding="5dp"
+                    android:background="@drawable/transparent_bg_bordered"
+                    android:hapticFeedbackEnabled="true"
+                    android:src="@drawable/ic_baseline_thermometer"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:strokeColor="@color/colorPrimary"
+                    app:strokeWidth="1dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/SpO2Button"
+                    android:scaleType="fitCenter"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="0"
+                    android:padding="5dp"
+                    android:background="@drawable/transparent_bg_bordered"
+                    android:hapticFeedbackEnabled="true"
+                    android:src="@drawable/ic_baseline_o2"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:strokeColor="@color/colorPrimary"
+                    app:strokeWidth="1dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BluetoothConfigButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:layout_weight="0"
+                android:padding="5dp"
+                android:background="@drawable/transparent_bg_bordered"
+                android:src="@drawable/ic_baseline_bluetooth_24"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:strokeColor="@color/colorPrimary"
+                app:strokeWidth="1dp"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/UploadButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:padding="5dp"
+                android:layout_weight="0"
+                android:background="@drawable/transparent_bg_bordered"
+                android:src="@drawable/ic_baseline_cloud_upload_24"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:strokeColor="@color/colorPrimary"
+                app:strokeWidth="1dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

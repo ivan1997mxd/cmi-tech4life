@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content">
+
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textOff=""
+                android:background="@drawable/fron_back_toggle"
+                android:textOn=""
+                android:id="@+id/toggleButton"
+                android:checked="false" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="300dp"
+            android:layout_margin="10dp">
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/viewpager"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="80dp">
+
+        <com.estethapp.media.view.RecorderVisualizerView
+            android:id="@+id/visualizer"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/black" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/textLable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_status"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/applozic_green_color" />
+
+            <TextView
+                android:id="@+id/txt_recordStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/textLable"
+                android:layout_toRightOf="@+id/textLable"
+                android:text="@string/txt_no_position_selected"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/red" />
+
+            <TextView
+                android:id="@+id/recording_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="00:00"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </RelativeLayout>
+
+
+        <com.estethapp.media.view.RippleAnimationView
+            android:id="@+id/content"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/relativeLayout4"
+            android:layout_centerHorizontal="true"
+            app:layout_anchorGravity="bottom|center"
+            app:rb_color="@android:color/holo_red_dark"
+            app:rb_duration="3000"
+            app:rb_radius="9dp"
+            app:rb_rippleAmount="1"
+            app:rb_scale="7">
+
+            <Button
+                android:id="@+id/btn_record"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circle_selected"
+                android:gravity="center"
+                android:text="@string/txt_start"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
+
+
+        </com.estethapp.media.view.RippleAnimationView>
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/txt_stop"
+            android:textSize="8sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/gray_circle"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/content"
+            android:layout_toEndOf="@+id/content" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

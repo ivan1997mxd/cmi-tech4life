@@ -1,0 +1,320 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">eSteth</string>
+    <string name="application_key">ae9f10942b6897864f5ad8a9435ff5f4</string>
+    <!--<string name="application_key">100380d715910d503ac516af33afb8aca</string>-->
+
+    <string name="member_login">Login</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login" tools:ignore="MissingTranslation">Login</string>
+    <string name="sign_up">New User</string>
+    <string name="forget_password">Forgot Password?</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="please_enter_your_pin_app">Enter your 4 digit code</string>
+    <string name="please_connect_device">Please connect device.</string>
+    <string name="couldnt_identify_file">Couldn\'t identify recorded file</string>
+    <string name="couldnt_play_this_file">Couldn\'t play this file</string>
+    <string name="uploading_profile_image">Uploading profile image</string>
+    <string name="couldnt_find_position_of_files">Couldn\'t find recorded positions at this file</string>
+    <string name="please_put_username">Please enter username</string>
+    <string name="please_put_pass">Please enter password</string>
+    <string name="please_put_all_field1">Please enter first name</string>
+    <string name="please_put_all_field2">Please enter username</string>
+    <string name="please_put_all_field3">Please enter email</string>
+    <string name="please_put_all_field4">Please enter password</string>
+    <string name="please_put_all_field5">Please enter confirm username</string>
+    <string name="please_put_all_field6">Please enter username</string>
+
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Search for devices</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">Searching…</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_found">No devices found</string>
+
+    //Screen recording with service START
+    <string name="screen_recording_permission_denied">Screen Recording Permission Denied</string>
+    <string name="screen_recording_notification_title">Screen recording</string>
+    <string name="screen_recording_notification_action_stop">Stop</string>
+    <string name="screen_recording_notification_action_pause">Pause</string>
+    <string name="screen_recording_notification_action_resume">Resume</string>
+    <string name="screen_recording_started_toast">Screen recording started</string>
+    <string name="screen_recording_stopped_toast">Screen Recording stopped</string>
+    <string name="screen_recording_resumed_toast">Screen Recording resumed</string>
+    <string name="screen_recording_paused_toast">Screen Recording paused</string>
+    <string name="preference_enable_target_app_key" translatable="false">enable_app_target</string>
+    <string name="preference_app_chooser_key" translatable="false">app_chosen</string>
+    <string name="screenrecording_already_active_toast">Screen recording session already active</string>
+    <string name="recording_failed_toast">Screen recording failed.</string>
+    <string name="share_intent_title">Share recorded</string>
+    <string name="savelocation_key" translatable="false">savelocation</string>
+    <string name="fatal_exception_message">ScreenRecorder: Saving video failed! Log will be sent if enabled.</string>
+    <string name="save_file_name">saveFileName</string>
+    //Screen recording with service END
+
+    //permission_check_dialog_title
+    <string name="permission_check_dialog_title">This app needs some permissions</string>
+    <string name="permission_check_dialog_message">Please grant access to location so this app can detect Tech4Life newPneu\'s Bluetooth devices.</string>
+    <string name="permission_check_dialog_positive_button">OK</string>
+
+    <string name="please_put_valid_email">Please enter valid email</string>
+    <string name="please_put_eight_char">Password must be minimum 8 alphanumeric characters, including 1 upper case letter</string>
+    <string name="put_valid_username">Username is not valid</string>
+    <string name="pass_not_matched">Password does not match</string>
+    <string name="please_select_gender">Please select gender</string>
+    <string name="devices_not_connnected">Aux cable / Bluetooth Device is not connected</string>
+    <string name="headset_connected">Headset connected</string>
+    <string name="headset_disconnected">Aux cable is disconnected</string>
+    <string name="bluetooth_device_connected">Bluetooth device connected</string>
+    <string name="connecting_to_bluetooth_device">Connecting to bluetooth device</string>
+    <string name="connected">Aux cable is Connected</string>
+    <string name="please_enter_valid_email_address">Please enter valid email address</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="group_name">Group Name</string>
+    <string name="internet_problem">Internet connection has some problem</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="processing_request">Processing Your Request…</string>
+    <string name="confirm_pin_code">Confirm PIN Code</string>
+    <string name="confirm_pin_not_match">Confirm Pin code does not match</string>
+    <string name="atleast_4_digit">Please type 4 digit code</string>
+    <string name="type_pin">Please type Pin</string>
+    <string name="fragment_pairing">Pairing</string>
+    <string name="fragment_profile">Profile</string>
+    <string name="fragment_myRecording">My Recordings</string>
+    <string name="fragment_auscultation">Auscultation</string>
+    <string name="fragment_myContacts">My Contacts</string>
+    <string name="fragment_about">About eSteth</string>
+    <string name="error_cropping">Error in Cropping</string>
+    <string name="fragment_consultation">Consultation</string>
+    <string name="logout">Logout</string>
+    <string name="start">Start</string>
+    <string name="test">Test</string>
+    <string name="rec_status">Ready for Auscultation</string>
+    <string name="txt_disconnected">Service is disconnected</string>
+    <string name="txt_connected">Service is connected</string>
+    <string name="txt_status">Status :</string>
+    <string name="txt_start">Start</string>
+    <string name="txt_stop">Stop</string>
+    <string name="txt_position">You can’t change position while recording</string>
+    <string name="txt_connection">Before record please connect eSteth bluetooth device</string>
+    <string name="txt_title">No Device Found</string>
+    <string name="txt_permission">Recording Audio permission denied</string>
+    <string name="txt_sel_pos">Please select position before start recording</string>
+    <string name="txt_norec">No recording is running.</string>
+    <string name="txt_error">No recording is running.</string>
+    <string name="txt_pos">Please select position before start recording</string>
+    <string name="aus_msg">Auscultation successful…</string>
+    <string name="aux_succes">Auscultation is completed</string>
+    <string name="txt_record">Please Record first</string>
+    <string name="txt_file">File name required</string>
+    <string name="error_rec">Failed to create Recordings directory</string>
+    <string name="txt_per">Screen Record Permission Denied</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_skip">Skip</string>
+    <string name="enter_valid_email">Please enter a valid email address</string>
+    <string name="something_wrong">Something went wrong</string>
+    <string name="creating_group">Creating group…</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_select_contacts">Please select contacts</string>
+    <string name="txt_group_name_required">Group name required</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_fail_upload_auscultation">Failed to upload Auscultation file, Auscultation file is too large</string>
+    <string name="txt_sync_success">Auscultation sync successful</string>
+    <string name="txt_failed_upload">Failed to upload Auscultation file</string>
+    <string name="txt_email_exist">Email Already Registered</string>
+    <string name="headset_unplugged">Headset is unplugged</string>
+    <string name="headset_plugged">Headset is plugged</string>
+    <string name="headset_state_unknown">\"I have no idea what the headset state is\"</string>
+    <string name="txt_paired">Paired</string>
+    <string name="txt_unpaired">UnPaired</string>
+    <string name="txt_bt_connected">Bluetooth Connected</string>
+    <string name="txt_loading_chat">Loading chat…</string>
+    <string name="txt_me">Me</string>
+    <string name="txt_confirm_delete">Confirm delete?</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_add_contact">Please add contact before creating group</string>
+    <string name="txt_contacts_loading">Contacts loading…</string>
+    <string name="txt_upload_contacts">Updating contacts list…</string>
+    <string name="txt_pause">Pause</string>
+    <string name="txt_resume">Resume</string>
+    <string name="failed_update_token">Failed to update notification device token.</string>
+    <string name="txt_name_required">File name required.</string>
+    <string name="txt_share_sound_file">Share Sound File</string>
+    <string name="txt_device_disconnect">Bluetooth Device is Disconnected</string>
+    <string name="txt_disconnect_bluetooth_first">Please disconnect with bluetooth device first</string>
+    <string name="txt_version_support">This feature supports version 5.0 and above</string>
+    <string name="txt_connected_ready">eSteth is connected and ready for recording</string>
+    <string name="txt_headset_connected_not_ready">Headset is connected but not ready for recording</string>
+    <string name="txt_recording_device_notconnected" tools:ignore="MissingTranslation">Recording device not connected</string>
+    <string name="txt_aux_disconnected">Aux Cable is Disconnected</string>
+    <string name="bluetooth_device_disconnected">Bluetooth Device is Disconnected</string>
+    <string name="txt_devices">Bluetooth Devices</string>
+    <string name="cannot_connect_to">Couldn\'t connect with device</string>
+    <string name="could_not_pair_device">Couldn\'t Pair with selected Bluetooth Device</string>
+    <string name="could_not_connect">Couldn\'t connect with device</string>
+    <string name="txt_bluetooth_not_enabled">Bluetooth is not enabled, would you like to enable?</string>
+    <string name="txt_enable">Enable</string>
+    <string name="txt_updating_profile">Updating profile…</string>
+    <string name="txt_paused">PAUSED</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_password_restiction">Password must be minimum 8 alphanumeric characters, including 1 upper case letter</string>
+    <string name="txt_confirm_pass">Confirm Password</string>
+    <string name="txt_consultation">Consultation</string>
+    <string name="txt_conversation_empty">Conversation list is empty</string>
+    <string name="txt_enter_message">Enter Message</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_contacts_empty">Contacts list is empty</string>
+    <string name="txt_send">Send</string>
+    <string name="txt_no_position_selected">No Position Selected</string>
+    <string name="txt_enter_your_email_to_reset_password">Enter your email to reset password</string>
+    <string name="txt_reset">Reset</string>
+    <string name="txt_device_disconnected">Device Disconnected</string>
+    <string name="txt_pin">PIN code is wrong</string>
+    <string name="txt_id">ID :</string>
+    <string name="txt_email">Email :</string>
+    <string name="txt_pwd">Password :</string>
+    <string name="txt_cnfpwd">Confirm Password :</string>
+    <string name="txt_gndr">Gender :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="txt_sync">Sync with MDConsults</string>
+    <string name="rcd">Record</string>
+    <string name="dlt">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="open">Open</string>
+    <string name="share">Share</string>
+    <string name="txt_fie">File</string>
+    <string name="txt_lungs">Lungs</string>
+    <string name="txt_heart">Heart</string>
+    <string name="txt_gallery">Choose from Camera or Gallery</string>
+    <string name="txt_cam">Camera</string>
+    <string name="txt_gall">Gallery</string>
+    <string name="save_me">Save</string>
+    <string name="txt_rename">Rename a file</string>
+    <string name="change_language">Choose Language</string>
+    <string name="languages">Languages</string>
+    <string name="is_connected">is connected</string>
+    <string name="internet_not_available_try">Internet not available, try again.</string>
+
+    <string name="save_screen" translatable="false">Save Screen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="yes_option" translatable="false">Yes</string>
+    <string name="no_option" translatable="false">No</string>
+    <string name="retake_assessment" translatable="false">Retake The Self-Assessment</string>
+
+    //Strings for COVID-19 self-assessment pages
+    <string name="covid_self_assessment_main_title" translatable="false">COVID-19 Self-Assessment</string>
+    <string name="covid_self_assessment_sub_title_one" translatable="false">This self-assessment tool will help determine whether you may need further assessment for COVID-19. You can complete this assessment for yourself, or on behalf of someone else if they are unable to.</string>
+    <string name="covid_self_assessment_sub_title_two" translatable="false">The Public Health Agency of Canada strongly urges anyone who has any of the following symptons: fever, cough, sore throat, runny nose, or headache to ISOLATE at home or another suitable location.</string>
+    <string name="covid_self_assessment_navigation_note" translatable="false">Note: This tool is based on the Government of Canada COVID-19 self-assessment.</string>
+
+    //Page Two
+    <string name="covid_self_assessment_page_two_title" translatable="false"><u>Question 1</u></string>
+    <string name="covid_self_assessment_page_two_question" translatable="false">Are you experiencing any of the following:</string>
+    <string name="covid_page_two_symptons" translatable="false">\n
+                                               • Severe difficulty breathing\n\n
+                                               • Severe chest pain\n\n
+                                               • Having a very hard time waking up\n\n
+                                               • Feeling confused\n\n
+                                               • Losing consciousness\n</string>
+
+
+    //Page Three
+    <string name="covid_self_assessment_page_three_title" translatable="false"><u>Question 2</u></string>
+    <string name="covid_self_assessment_page_three_question" translatable="false">Are you experiencing any of the following:</string>
+    <string name="covid_page_three_symptons" translatable="false">\n
+                                               • Mild to moderate shortness of breath\n\n
+                                               • Inability to lie down because of difficulty breathing\n\n
+                                               • Chronic health conditions that you are having difficulty managing because of difficulty breathing\n\n
+                                                </string>
+
+    //Page Four
+    <string name="covid_self_assessment_page_four_title" translatable="false"><u>Question 3</u></string>
+    <string name="covid_self_assessment_page_four_question" translatable="false">Are you experiencing any of the following:</string>
+    <string name="covid_page_four_symptons" translatable="false">\n
+                                               • Fever\n\n
+                                               • Cough\n\n
+                                               • Sore throat\n\n
+                                               • Runny nose\n\n
+                                               • Headache\n
+                                                </string>
+
+
+    //Page Five
+    <string name="covid_self_assessment_page_five_title" translatable="false"><u>Question 4</u></string>
+    <string name="covid_self_assessment_page_five_question" translatable="false">Within the past 14 days, have you travelled to any countries (including United States) outside Canada?</string>
+
+    //Page Six
+    <string name="covid_self_assessment_page_six_title" translatable="false"><u>Question 5</u></string>
+    <string name="covid_self_assessment_page_six_question" translatable="false">Within the last 14 days did you provide care or have close contact with a symptomatic person known or suspected to have COVID-19?</string>
+
+    //Page Seven
+    <string name="covid_self_assessment_page_seven_title" translatable="false"><u>Question 6</u></string>
+    <string name="covid_self_assessment_page_seven_question" translatable="false">Did you have close contact with a person who travelled outside of Canada in the last 14 days who has become ill (fever, cough, sore throat, runny nose or headache)?</string>
+
+    //Final page emergency information
+    <string name="covid_self_assessment_final_emergency_title" translatable="false">Please call 9-1-1 or go directly to your nearest emergency department.</string>
+    <string name="covid_self_assessment_final_emergency_subtitle" translatable="false">These symptoms require immediate attention. You should call 9-1-1 immediately, or go directly to your nearest emergency department.\n\For more information on where you can call for help   </string>
+    <string name="covid_self_assessment_final_emergency_link" translatable="false"><a href="https://www.google.com">Click here for further information</a> </string>
+
+    //Final page family doctor information
+    <string name="covid_self_assessment_final_family_doctor_title" translatable="false">Please consult your family doctor. If you are unable to reach your regular health care provider, call Telehealth.</string>
+    <string name="covid_self_assessment_final_family_doctor_subtitle" translatable="false">A healthcare provider will need to speak to you about your symptoms in more detail.</string>
+
+    //Final page self-quarantine information
+    <string name="covid_self_assessment_final_quarantine_title" translatable="false">Please quarantine (self-isolate) for 14-days from your last exposure to the symptomatic person or upon your return to Canada.</string>
+    <string name="covid_self_assessment_final_quarantine_subtitle" translatable="false"><b>All travellers returning to Canada are legally required to self isolate for 14 days.</b>\n\nThere’s a chance you could get sick if it’s been less than 14 days since your exposure. You should stay at home, avoid contact with others and self-monitor for any symptoms. If you develop any symptoms, you should isolate in your home and take this self-assessment again.\n\nIf you are a health care worker, follow the advice of your employer. If you are an essential service worker involved in the cross-border movement of goods/services you may be exempt from the legal requirement.</string>
+
+    //Final page stay at home information
+    <string name="covid_self_assessment_final_stay_home_title" translatable="false">Please stay at home as much as possible (and follow any local public health emergency requirements).</string>
+    <string name="covid_self_assessment_final_stay_home_subtitle" translatable="false">When outside of the home practice physical (social) distancing from others, avoid any crowded places. Self-monitor for symptoms of COVID-19, and wash your hands frequently.\n\n
+                                                                                        If you develop any symptoms, immediately go home, or stay home, and isolate yourself and follow the advice of your local Public Health Authority.\n\n
+                                                                                        If you become aware of any potential exposure of cases of COVID-19, take this self-assessment again.</string>
+
+    <string name="save_data_title" translatable="false"> Sharing Patient Data </string>
+    <string name="save_data_required_fields" translatable="false"> * Required Fields</string>
+    <string name="save_data_subtitle" translatable="false">Enter Patient\'s Full Name</string>
+    <string name="save_data_patient_first_name" translatable="false">First Name</string>
+    <string name="save_data_patient_middle_name" translatable="false">Middle Name</string>
+    <string name="save_data_patient_last_name" translatable="false">Last Name</string>
+    <string name="save_data_button_title" translatable="false">Save and Share</string>
+    <string name="save_data_information" translatable="false">(Information about activity)</string>
+
+    <string name="bluetooth_logo_description" translatable="false">Bluetooth Logo</string>
+    <string name="allow_bluetooth" translatable="false">Allow Bluetooth</string>
+    <string name="let_esteth_access_your_equipment" translatable="false">Let eSteth access your equipment.</string>
+    <string name="bluetooth_permissions" translatable="false">Bluetooth Permissions</string>
+    <string name="Zero" translatable="false">-</string>
+    <string name="device_name" translatable="false">No Connection</string>
+    <string name="firstname" translatable="false">First Name</string>
+    <string name="lastname" translatable="false">Last Name</string>
+    <string name="case_code" translatable="false">Patient ID</string>
+    <string name="age" translatable="false">Patient Age</string>
+    <string name="new_user" translatable="false">New User</string>
+    <string name="current_user" translatable="false">Current ID: 1000</string>
+    <string name="age_group_adults" translatable="false">Current age: Adults</string>
+    <string name="gender_female" translatable="false">Current gender: Female</string>
+    <string name="add_message" translatable="false">Creating a new User</string>
+    <string name="covid_19">Covid-19</string>
+
+    <string-array name="assessment_questions">
+        <item>Are you experiencing any of the following?\u001E\u2022 Severe difficulty breathing\n\u2022 Severe chest pain\n\u2022 Having a very hard time waking up\n\u2022 Feeling confused\n\u2022 Losing consciousness</item>
+        <item>Are you experiencing any of the following?\u001E\u2022 Mild to moderate shortness of breath\n\u2022 Inability to lie down because of difficulty breathing\n\u2022 Chronic health conditions that you are having difficulty managing because of difficulty breathing</item>
+        <item>Are you experiencing any of the following?\u001E\u2022 New or worsening cough\n\u2022 Shortness of breath or difficulty breathing\n\u2022 Temperature equal to or over 38°C\n\u2022 Feeling feverish\n\u2022 Chills\n\u2022 Fatigue or weakness\n\u2022 Muscle or body aches\n\u2022 New loss of smell or taste\n\u2022 Headache\n\u2022 Gastrointestinal symptoms (abdominal pain, diarrhea, vomiting)\n\u2022 Feeling very unwell</item>
+        <item>Have you travelled to any countries outside Canada (including the United States) within the last 14 days?</item>
+        <item>Within the last 14 days did you provide care or have close contact with a symptomatic person known or suspected to have COVID-19?</item>
+        <item>Did you have close contact with a person who travelled outside of Canada in the last 14 days who has become ill?</item>
+    </string-array>
+</resources>

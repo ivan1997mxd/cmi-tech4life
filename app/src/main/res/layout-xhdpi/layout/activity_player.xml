@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_above="@+id/relativeLayout3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imgShare"
+                android:src="@mipmap/ic_share"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textOff=""
+                android:background="@drawable/fron_back_toggle"
+                android:textOn=""
+                android:id="@+id/toggleButton"                 />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+            <android.support.v4.view.ViewPager
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/front_view"
+                android:layout_weight="3"
+                android:id="@+id/viewpager"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+            <!-- <esteth.andr.com.estethapp.view.VisualizerView
+                 android:id="@+id/visualizer"
+                 android:layout_width="fill_parent"
+                 android:layout_height="75dp"
+                 android:layout_centerHorizontal="true"
+
+                 android:layout_margin="5dp" />-->
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:id="@+id/heartBeatImg"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/viewpager"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:background="@color/playerColor"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout3">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/relativeLayout2"
+            android:layout_alignParentTop="true">
+
+
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:minHeight="5dp"
+                android:max="100"
+                android:maxHeight="5dp"
+                android:thumb="@mipmap/ic_thumbtintmode"
+                android:progressDrawable="@drawable/seekbar_progressbar"
+                android:layout_marginRight="4dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/btn_play"
+                android:layout_toEndOf="@+id/btn_play" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btn_play"
+                android:layout_margin="2dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout"
+            android:layout_alignTop="@+id/relativeLayout2"
+            android:layout_alignRight="@+id/relativeLayout2"
+            android:layout_alignEnd="@+id/relativeLayout2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01:20 / "
+                android:textColor="@color/white"
+                android:id="@+id/txtStartPlay"
+                android:textSize="12sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:text="03:12"
+                android:id="@+id/txtEndPlay"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/txtStartPlay"
+                android:layout_toEndOf="@+id/txtStartPlay" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

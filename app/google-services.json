@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1077308490729",
+    "firebase_url": "https://esteth2.firebaseio.com",
+    "project_id": "esteth2",
+    "storage_bucket": "esteth2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077308490729:android:698bdf38d487376f",
+        "android_client_info": {
+          "package_name": "com.estethapp.media"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077308490729-phltbvev6qdovoeankbsvvdmi097mceg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.estethapp.media",
+            "certificate_hash": "eb1403d21c23ba875c68e7f3b45557ae8556b4b9"
+          }
+        },
+        {
+          "client_id": "1077308490729-85lh4a4hn991j6i4or97ma62bhnl65b1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDieIofdpla-3Rk2gFaJL0YKo901BJgCzU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077308490729-85lh4a4hn991j6i4or97ma62bhnl65b1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

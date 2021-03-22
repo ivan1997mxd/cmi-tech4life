@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="380dp"
+        android:layout_height="400dp"
+        >
+
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="400dp"
+            android:src="@mipmap/front_view"
+            android:id="@+id/imageButton"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="131dp"
+            android:layout_marginStart="131dp"
+            android:layout_marginTop="83dp"
+            android:id="@+id/linearLayout5">
+
+            <esteth.andr.com.estethapp.view.RippleAnimation
+                android:id="@+id/fripple_front_Lungs_Rt_upper_field_1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="3000"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_gravity="center_horizontal"
+                >
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/front_Lungs_Rt_upper_field_1"
+                android:foregroundGravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle_btn"
+
+                />
+        </esteth.andr.com.estethapp.view.RippleAnimation>
+            <esteth.andr.com.estethapp.view.RippleAnimation
+                android:id="@+id/fripple_front_Lungs_Rt_upper_field_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="3000"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_gravity="center_horizontal"
+                >
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/front_Lungs_Rt_upper_field_2"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+            </esteth.andr.com.estethapp.view.RippleAnimation>
+            <esteth.andr.com.estethapp.view.RippleAnimation
+                android:id="@+id/fripple_front_Lungs_Rt_middile_field"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="3000"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/front_Lungs_Rt_middile_field"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+
+
+            </esteth.andr.com.estethapp.view.RippleAnimation>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout6"
+            android:layout_alignTop="@+id/fripple_front_Lungs_Rt_lower_field"
+            android:layout_toRightOf="@+id/fripple_front_Lungs_Rt_lower_field"
+            android:layout_toEndOf="@+id/fripple_front_Lungs_Rt_lower_field">
+
+            <esteth.andr.com.estethapp.view.RippleAnimation
+                android:id="@+id/front_ripple_heart_pulmonic_valve"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="3000"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                >
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/front_heart_pulmonic_valve"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+            </esteth.andr.com.estethapp.view.RippleAnimation>
+            <esteth.andr.com.estethapp.view.RippleAnimation
+                android:id="@+id/ripple_front_heart_erbpoint"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="3000"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                >
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/front_heart_erbpoint"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+            </esteth.andr.com.estethapp.view.RippleAnimation>
+            <esteth.andr.com.estethapp.view.RippleAnimation
+                android:id="@+id/front_ripple_heart_tricuspidvalve"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="3000"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                >
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/front_heart_tricuspidvalve"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+
+
+            </esteth.andr.com.estethapp.view.RippleAnimation>
+
+        </LinearLayout>
+
+        <esteth.andr.com.estethapp.view.RippleAnimation
+            android:id="@+id/fripple_front_Lungs_Rt_lower_field"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_anchorGravity="bottom|center"
+            app:rb_color="@android:color/holo_red_dark"
+            app:rb_duration="3000"
+            app:rb_radius="5dp"
+            app:rb_rippleAmount="1"
+            app:rb_scale="3"
+            android:layout_alignTop="@+id/linearLayout5"
+            android:layout_toRightOf="@+id/linearLayout5"
+            android:layout_toEndOf="@+id/linearLayout5"
+            android:layout_marginTop="20dp">
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/front_Lungs_Rt_lower_field"
+                android:foregroundGravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle_btn"
+
+                />
+
+
+
+        </esteth.andr.com.estethapp.view.RippleAnimation>
+
+        <esteth.andr.com.estethapp.view.RippleAnimation
+            android:id="@+id/ripple_back_lungs_lt_costophrenicangle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_anchorGravity="bottom|center"
+            app:rb_color="@android:color/holo_red_dark"
+            app:rb_duration="3000"
+            app:rb_radius="5dp"
+            app:rb_rippleAmount="1"
+            app:rb_scale="3"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/linearLayout5"
+            android:layout_alignEnd="@+id/linearLayout5"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp">
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/front_heart_aortic_valve"
+                android:foregroundGravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle_btn"
+
+                />
+
+
+
+        </esteth.andr.com.estethapp.view.RippleAnimation>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/linearLayout6"
+            android:layout_toRightOf="@+id/linearLayout6"
+            android:layout_toEndOf="@+id/linearLayout6">
+
+
+
+
+            <esteth.andr.com.estethapp.view.RippleAnimation
+                android:id="@+id/ripple_front_heart_mitral_valve"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="3000"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_alignBaseline="@+id/fripple_front_Lungs_Rt_lower_field"
+                android:layout_alignBottom="@+id/fripple_front_Lungs_Rt_lower_field"
+                android:layout_toRightOf="@+id/linearLayout6"
+                android:layout_toEndOf="@+id/linearLayout6">
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/front_heart_mitral_valve"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+
+
+            </esteth.andr.com.estethapp.view.RippleAnimation>
+
+            <esteth.andr.com.estethapp.view.RippleAnimation
+                android:id="@+id/ripple_lungs_lt_lower_field"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="3000"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_alignBaseline="@+id/fripple_front_Lungs_Rt_lower_field"
+                android:layout_alignBottom="@+id/fripple_front_Lungs_Rt_lower_field"
+                android:layout_toRightOf="@+id/linearLayout6"
+                android:layout_toEndOf="@+id/linearLayout6">
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/front_lungs_lt_lower_field"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+
+
+            </esteth.andr.com.estethapp.view.RippleAnimation>
+
+        </LinearLayout>
+
+        <esteth.andr.com.estethapp.view.RippleAnimation
+            android:id="@+id/ripple_lungs_lt_upper_field"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_anchorGravity="bottom|center"
+            app:rb_color="@android:color/holo_red_dark"
+            app:rb_duration="3000"
+            app:rb_radius="5dp"
+            app:rb_rippleAmount="1"
+            app:rb_scale="3"
+            android:layout_alignTop="@+id/linearLayout5"
+            android:layout_toRightOf="@+id/linearLayout6"
+            android:layout_toEndOf="@+id/linearLayout6">
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/front_lungs_lt_upper_field"
+                android:foregroundGravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle_btn"
+
+                />
+
+
+
+        </esteth.andr.com.estethapp.view.RippleAnimation>
+
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Lungs"
+            android:textOff="Heart"
+            android:id="@+id/heart_lungsswitch"
+            android:checked="false"
+            android:layout_below="@+id/ripple_back_lungs_lt_costophrenicangle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

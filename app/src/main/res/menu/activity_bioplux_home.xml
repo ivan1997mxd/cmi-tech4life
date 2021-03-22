@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group
+        android:id="@+id/bmenu1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_pairing"
+            android:title="Home" />
+    </group>
+    <group
+        android:id="@+id/bmenu2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_presets"
+            android:icon="@mipmap/ic_examining"
+            android:title="Presets" />
+    </group>
+    <group
+        android:id="@+id/bmenu3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_switchHub"
+            android:icon="@mipmap/bt_connected"
+            android:title="Switch hub" />
+    </group>
+    <group
+        android:id="@+id/bmenu4"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_assessment"
+            android:icon="@mipmap/assessment_checklist"
+            android:title="Self-Assessment" />
+    </group>
+</menu>

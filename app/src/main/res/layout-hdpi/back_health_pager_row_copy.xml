@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="380dp"
+        android:layout_height="400dp"
+        >
+
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="400dp"
+            android:src="@mipmap/back_view"
+            android:id="@+id/imageButton"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="131dp"
+            android:layout_marginStart="131dp"
+            android:layout_marginTop="83dp"
+            android:id="@+id/linearLayout5">
+
+            <com.estethapp.media.view.RippleAnimationView
+                android:id="@+id/ripple_back_lungs_lt_upper_field"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="500"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center_horizontal"
+                >
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/back_lungs_lt_upper_field"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+            </com.estethapp.media.view.RippleAnimationView>
+            <com.estethapp.media.view.RippleAnimationView
+                android:id="@+id/ripple_back_lungs_lt_middle_field"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="500"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center_horizontal"
+                >
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/back_lungs_lt_middle_field"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+            </com.estethapp.media.view.RippleAnimationView>
+            <com.estethapp.media.view.RippleAnimationView
+                android:id="@+id/ripple_back_lungs_lt_lower_field"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="500"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/back_lungs_lt_lower_field"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+
+
+            </com.estethapp.media.view.RippleAnimationView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout6"
+            android:layout_alignTop="@+id/linearLayout5"
+            android:layout_toRightOf="@+id/linearLayout5"
+            android:layout_toEndOf="@+id/linearLayout5"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp">
+
+            <com.estethapp.media.view.RippleAnimationView
+                android:id="@+id/ripple_back_lungs_rt_upper_field"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="500"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_marginTop="3dp"
+                >
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/back_lungs_rt_upper_field"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+            </com.estethapp.media.view.RippleAnimationView>
+            <com.estethapp.media.view.RippleAnimationView
+                android:id="@+id/ripple_back_lungs_rt_middle_field"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="500"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_marginTop="3dp"
+                >
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/back_lungs_rt_middle_field"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+            </com.estethapp.media.view.RippleAnimationView>
+            <com.estethapp.media.view.RippleAnimationView
+                android:id="@+id/ripple_back_lungs_rt_lower_field"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_anchorGravity="bottom|center"
+                app:rb_color="@android:color/holo_red_dark"
+                app:rb_duration="500"
+                app:rb_radius="5dp"
+                app:rb_rippleAmount="1"
+                app:rb_scale="3"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/back_lungs_rt_lower_field"
+                    android:foregroundGravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_btn"
+
+                    />
+
+
+
+            </com.estethapp.media.view.RippleAnimationView>
+
+        </LinearLayout>
+
+        <com.estethapp.media.view.RippleAnimationView
+            android:id="@+id/ripple_back_lungs_lt_costophrenicangle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_anchorGravity="bottom|center"
+            app:rb_color="@android:color/holo_red_dark"
+            app:rb_duration="500"
+            app:rb_radius="5dp"
+            app:rb_rippleAmount="1"
+            app:rb_scale="3"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/linearLayout5"
+            android:layout_alignEnd="@+id/linearLayout5"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp">
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/back_lungs_lt_costophrenicangle"
+                android:foregroundGravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle_btn"
+
+                />
+
+
+
+        </com.estethapp.media.view.RippleAnimationView>
+
+
+        <com.estethapp.media.view.RippleAnimationView
+            android:id="@+id/ripple_back_lungs_rt_costophrenicangle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_anchorGravity="bottom|center"
+            app:rb_color="@android:color/holo_red_dark"
+            app:rb_duration="500"
+            app:rb_radius="5dp"
+            app:rb_rippleAmount="1"
+            app:rb_scale="3"
+            android:layout_below="@+id/linearLayout6"
+            android:layout_alignLeft="@+id/linearLayout6"
+            android:layout_alignStart="@+id/linearLayout6"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp">
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/back_lungs_rt_costophrenicangle"
+                android:foregroundGravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle_btn"
+
+                />
+
+
+
+        </com.estethapp.media.view.RippleAnimationView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="278dp"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/assessmentSubHeader3"
+        app:layout_constraintStart_toStartOf="@+id/assessmentSubHeader3"
+        app:layout_constraintTop_toBottomOf="@+id/assessmentSubHeader3">
+
+        <RadioButton
+            android:id="@+id/pageFiveYes"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yes_option"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/pageFiveNo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no_option"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/assessmentSubHeader3"
+        android:layout_width="367dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/covid_self_assessment_page_five_question"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assessmentTitle5" />
+
+    <TextView
+        android:id="@+id/assessmentTitle5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/covid_self_assessment_page_five_title"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+</androidx.constraintlayout.widget.ConstraintLayout>

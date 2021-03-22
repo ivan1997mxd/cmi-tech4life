@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_autocrop.png",
+        "source": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_autocrop.png"
+    },
+    {
+        "merged": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_rotate_right.png",
+        "source": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_rotate_right.png"
+    },
+    {
+        "merged": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\camera_crop_width.png",
+        "source": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\camera_crop_width.png"
+    },
+    {
+        "merged": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\btn_crop_operator.9.png",
+        "source": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\btn_crop_operator.9.png"
+    },
+    {
+        "merged": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\btn_crop_pressed.9.png",
+        "source": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\btn_crop_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\camera_crop_height.png",
+        "source": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\camera_crop_height.png"
+    },
+    {
+        "merged": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_rotate_left.png",
+        "source": "E:\\Office work\\MurgencyApp\\simplecropimagelib\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_rotate_left.png"
+    }
+]
